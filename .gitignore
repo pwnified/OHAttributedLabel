@@ -1,14 +1,21 @@
+
 # xcode noise
-build/
-*~.nib/
+build/*
+*.xcclassmodel/*
 *.pbxuser
-*.perspective
-*.perspectivev3
 *.mode1v3
 *.mode2v3
+*.perspectivev3
+*xcodeproj/project.xcworkspace
+*xcodeproj/xcuserdata
 
-# old school
+# old skool
 .svn
 
 # osx noise
 .DS_Store
+profile
+
+# Dreamweaver noise
+dwsync.xml
+_notes
