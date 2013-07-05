@@ -584,13 +584,15 @@ BOOL CTRunContainsCharactersFromStringRange(CTRunRef run, NSRange range) {
 	[_attributedText setTextColor:color];
 	[super setTextColor:color]; // will call setNeedsDisplay too
 }
--(void)setTextAlignment:(UITextAlignment)alignment {
+
+
+-(void)setTextAlignment:(NSTextAlignment)alignment {
 	CTTextAlignment coreTextAlign = CTTextAlignmentFromUITextAlignment(alignment);
 	CTLineBreakMode coreTextLBMode = CTLineBreakModeFromUILineBreakMode(self.lineBreakMode);
 	[_attributedText setTextAlignment:coreTextAlign lineBreakMode:coreTextLBMode];
 	[super setTextAlignment:alignment]; // will call setNeedsDisplay too
 }
--(void)setLineBreakMode:(UILineBreakMode)lineBreakMode {
+-(void)setLineBreakMode:(NSLineBreakMode)lineBreakMode {
 	CTTextAlignment coreTextAlign = CTTextAlignmentFromUITextAlignment(self.textAlignment);
 	CTLineBreakMode coreTextLBMode = CTLineBreakModeFromUILineBreakMode(lineBreakMode);
 	[_attributedText setTextAlignment:coreTextAlign lineBreakMode:coreTextLBMode];
