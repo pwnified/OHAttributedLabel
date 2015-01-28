@@ -1,11 +1,6 @@
-
-Please contact me by email (olivier.halligon+ae@gmail.com) if you plan to use this
-class in your own software.
-
-Thanks.
-
-
 /***********************************************************************************
+ * This software is under the MIT License quoted below:
+ ***********************************************************************************
  *
  * Copyright (c) 2010 Olivier Halligon
  * 
@@ -27,16 +22,4 @@ Thanks.
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  * 
- ***********************************************************************************
- *
- * Created by Olivier Halligon  (AliSoftware) on 20 Jul. 2010.
- *
- * Any comment or suggestion welcome. Please contact me before using this class in
- * your projects. Referencing this project in your AboutBox/Credits is appreciated.
- *
  ***********************************************************************************/
-
-
-The author would like to thank these GitHub users for their contribution:
- * @stigi for the multiple bug fixes and improvements he did on this class
- * @triplef, @hollance, @noahmiller for their contribution

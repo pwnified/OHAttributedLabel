@@ -1,5 +1,5 @@
 //
-//  main.m
+//  AttributedLabel_ExampleAppDelegate.h
 //  AttributedLabel Example
 //
 //  Created by Olivier on 18/02/11.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-int main(int argc, char *argv[])
-{    
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, nil);
-    }
-}
+@interface UIAlertView(Commodity)
++(void)showWithTitle:(NSString*)title message:(NSString*)message;
+@end
